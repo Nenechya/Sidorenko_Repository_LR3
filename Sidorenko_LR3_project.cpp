@@ -66,7 +66,10 @@ void show_middle(double num1, double num2, double num3)
 }
 void is_good(double num1, double num2, double num3)
 {
-;
+    if(middle_grade(num1, num2, num3) > 4)
+    {
+        cout << "The council has decided that you deserve to live";
+    }
 }
 int main()
 {
