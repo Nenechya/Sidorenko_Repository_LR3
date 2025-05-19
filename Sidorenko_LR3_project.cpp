@@ -45,15 +45,7 @@ int integ(string label = "")
 }
 void EnterDigit(double& varlink, const string& label)
 {
-    string raw_input;
-    cout << label << " = ";
-    getline(cin, raw_input);
-    while(!UserInput(raw_input))
-    {
-        cout << label << " = ";
-        getline(cin, raw_input);
-    }
-    varlink = stod(raw_input);
+;
 }
 
 double middle_grade(double num1, double num2, double num3)
