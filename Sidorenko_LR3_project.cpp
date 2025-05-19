@@ -58,7 +58,7 @@ void EnterDigit(double& varlink, const string& label)
 
 double middle_grade(double num1, double num2, double num3)
 {
-;
+        return (num1 + num2 + num3) / 3;
 }
 void show_middle(double num1, double num2, double num3)
 {
