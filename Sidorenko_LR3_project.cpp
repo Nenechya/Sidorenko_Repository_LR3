@@ -62,7 +62,7 @@ double middle_grade(double num1, double num2, double num3)
 }
 void show_middle(double num1, double num2, double num3)
 {
-;
+    cout << middle_grade(num1, num2, num3);
 }
 void is_good(double num1, double num2, double num3)
 {
